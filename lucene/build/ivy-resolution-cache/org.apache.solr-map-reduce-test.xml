@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="map-reduce"
+		revision="working@ahmeds-mbp.qf.org.qa"
+		conf="test"
+		confs="test"
+		date="20170703104346"/>
+	<dependencies>
+		<module organisation="com.rometools" name="rome">
+			<revision name="1.6.1" status="release" pubdate="20160620214204" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="9228" time="0" location="/Users/aahmed/.ivy2/cache/com.rometools/rome/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/rometools/rome/1.6.1/rome-1.6.1.pom"/>
+				<caller organisation="org.apache.solr" name="map-reduce" conf="test" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="working@ahmeds-mbp.qf.org.qa"/>
+				<artifacts>
+					<artifact name="rome" type="jar" ext="jar" status="no" details="" size="252180" time="0" location="/Users/aahmed/.ivy2/cache/com.rometools/rome/jars/rome-1.6.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/rometools/rome/1.6.1/rome-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcpkix-jdk15on">
+			<revision name="1.47" status="release" pubdate="20120327035600" resolver="public" artresolver="main" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2992" time="0" location="/Users/aahmed/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/ivy-1.47.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.47/bcpkix-jdk15on-1.47.pom"/>
+				<caller organisation="org.apache.solr" name="map-reduce" conf="test" rev="1.47" rev-constraint-default="1.47" rev-constraint-dynamic="1.47" callerrev="working@ahmeds-mbp.qf.org.qa"/>
+				<artifacts>
+					<artifact name="bcpkix-jdk15on" type="jar" ext="jar" status="no" details="" size="515071" time="0" location="/Users/aahmed/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.47.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.47/bcpkix-jdk15on-1.47.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.netty" name="netty">
+			<revision name="3.2.4.Final" status="release" pubdate="20110207154052" resolver="public" artresolver="main" homepage="http://www.jboss.org/netty/" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="9429" time="0" location="/Users/aahmed/.ivy2/cache/org.jboss.netty/netty/ivy-3.2.4.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/jboss/netty/netty/3.2.4.Final/netty-3.2.4.Final.pom"/>
+				<caller organisation="org.apache.solr" name="map-reduce" conf="test" rev="3.2.4.Final" rev-constraint-default="3.2.4.Final" rev-constraint-dynamic="3.2.4.Final" callerrev="working@ahmeds-mbp.qf.org.qa"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="790250" time="0" location="/Users/aahmed/.ivy2/cache/org.jboss.netty/netty/bundles/netty-3.2.4.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jboss/netty/netty/3.2.4.Final/netty-3.2.4.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
